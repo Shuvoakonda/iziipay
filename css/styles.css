@@ -58,7 +58,7 @@ body {
 
 
 .checkout {
-  background-image: url(images/checkout-section.jpeg);
+  background-image: url(../images/checkout-section.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,7 +105,7 @@ body {
 }
 
 .b2b-image-right {
- gap: 20px;
+  gap: 20px;
   max-width: 100%;
   width: 90%;
 }
@@ -115,6 +115,12 @@ body {
 .split-img {
   max-width: 115%;
   height: auto;
+}
+
+.payments-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 .footer {
@@ -219,8 +225,7 @@ h1 {
 
 .pricing-table thead th {
   text-align: left;
-  padding: 10px 15px;
-  background-color: #003366;
+  padding: 0px 15px;
   color: #fff;
 }
 
@@ -241,7 +246,7 @@ h1 {
 }
 
 .pricing-table td {
-  font-size: 16px;
+  font-size: 12px;
   text-align: left;
 }
 
@@ -252,16 +257,53 @@ h1 {
   text-align: center;
   width: 10px;
 } */
- .api-standard{
+.api-standard {
   display: flex;
   flex-direction: column;
   gap: 30px;
- }
- .api-btn{
+}
+
+.api-btn {
   width: 60%;
   height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
- }
- 
+}
+
+.mobile-wallets-section {
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+.mobile-wallets-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  color: #FFFFFF;
+}
+
+.mobile-wallets-table th,
+.mobile-wallets-table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #1A4567;
+}
+
+.mobile-wallets-table th {
+  background-color: #143D5E;
+}
+
+.mobile-wallets-table td {
+  background-color: #1A4567;
+}
+
+.mobile-wallets-table td img {
+  vertical-align: middle;
+  margin-right: 10px;
+  height: 24px;
+}
